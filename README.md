@@ -84,7 +84,75 @@ def save_as_json(products, output_filename):
   </div>
 
   <div class="product">
-    
+    <!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>HiLove Jewellery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      background-color: #fff8f5;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #d47d96;
+    }
+    .product {
+      border: 1px solid #ffd5dd;
+      border-radius: 15px;
+      padding: 15px;
+      margin: 15px 0;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .product img {
+      max-width: 150px;
+      border-radius: 10px;
+    }
+    .details {
+      flex: 1;
+    }
+    .details h2 {
+      margin: 0 0 10px;
+      color: #d47d96;
+    }
+    .details p {
+      margin: 5px 0;
+    }
+    .price {
+      font-weight: bold;
+      color: #333;
+    }
+    .collection {
+      font-style: italic;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>קטלוג תכשיטים - HiLove Jewellery</h1>
+
+  <!-- הדבקתי פה רק דוגמה של מוצר אחד לדוגמה -->
+  <div class="product">
+    <img src="https://example.com/image.jpg" alt="שם המוצר">
+    <div class="details">
+      <h2>שם המוצר</h2>
+      <p>תיאור קצר של המוצר</p>
+      <p class="price">₪99</p>
+      <p class="collection">קולקציה: קיץ 2025</p>
+    </div>
+  </div>
+
+  <!-- פה ייכנסו שאר המוצרים שלך -->
+
+</body>
+</html>
     <img src="https://via.placeholder.com/400x300.png?text=טבעת+לב" alt="טבעת לב">
     <h2>טבעת לב פתוח</h2>
     <p><strong>מחיר:</strong> 85 ש"ח</p>
